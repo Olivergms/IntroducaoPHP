@@ -2,7 +2,11 @@
 
 
 function exibemensagem($msg){
+    //função para converter todas as letras para letras maiusculas
+    $msg = mb_strtoupper($msg);
+
     echo $msg . PHP_EOL;
+
 }
 
 

@@ -16,8 +16,10 @@ echo gettype($idade);
 $a = 'adriano';
 
 //concatenando string
-echo " \n idade:". $idade . "Anos" . PHP_EOL;
 
-echo "idade: \"$a\" anos" . PHP_EOL;
+//tag br pula  linha no browser
+echo " \n idade:". $idade . "Anos" . '<br>';
+
+echo "idade: \"$a\" anos" . '<br>';
 
 echo "idade $idade anos";
